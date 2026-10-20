@@ -225,8 +225,18 @@ export function fieldReducer(state: FormState, action: FieldAction): FormState {
         incomingState: serverState,
       })
 
+      /**
+       * Merge the server state into the previous state rather than storing `newState`.
+       * `newState` can contain changes made while the request was in flight, e.g. a new row.
+       * The previous state must only reflect what the server has seen, otherwise the debounced
+       * onChange effect sees no difference and never sends those changes to the server.
+       */
       if (prevStateRef) {
-        prevStateRef.current = newState
+        prevStateRef.current = mergeServerFormState({
+          acceptValues,
+          currentState: prevStateRef.current || {},
+          incomingState: serverState,
+        })
       }
 
       return newState
