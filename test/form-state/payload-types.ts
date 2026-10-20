@@ -174,6 +174,12 @@ export interface Post {
         }[]
       | null;
   };
+  validatePathArray?:
+    | {
+        validatePathText?: string | null;
+        id?: string | null;
+      }[]
+    | null;
   updatedAt: string;
   createdAt: string;
 }
@@ -359,6 +365,12 @@ export interface PostsSelect<T extends boolean = true> {
               textInArrayInNamedTabInUnnamedTab?: T;
               id?: T;
             };
+      };
+  validatePathArray?:
+    | T
+    | {
+        validatePathText?: T;
+        id?: T;
       };
   updatedAt?: T;
   createdAt?: T;

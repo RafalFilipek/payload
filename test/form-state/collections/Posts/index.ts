@@ -153,5 +153,18 @@ export const PostsCollection: CollectionConfig = {
         },
       ],
     },
+    {
+      name: 'validatePathArray',
+      type: 'array',
+      fields: [
+        {
+          name: 'validatePathText',
+          type: 'text',
+          // Echoes the `path` it receives so tests can compare onChange and submit validation
+          validate: (value, { path }) =>
+            value === 'echo path' ? `Received path: ${JSON.stringify(path)}` : true,
+        },
+      ],
+    },
   ],
 }

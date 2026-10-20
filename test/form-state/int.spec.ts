@@ -1418,4 +1418,36 @@ describe('Form State', () => {
     expect(state.array).toBeDefined()
     expect(state?.array?.rows).toEqual([]) // should be [] not undefined
   })
+
+  it('should pass the same `path` to field validators when building form state as on submit', async () => {
+    const req = await createLocalReq({ user }, payload)
+    const data = {
+      title: 'Validate path',
+      validatePathArray: [{ id: '64f1c2a3b4c5d6e7f8a9b0c1', validatePathText: 'echo path' }],
+    }
+    const expectedMessage = 'Received path: ["validatePathArray","0","validatePathText"]'
+
+    const { state } = await buildFormState({
+      collectionSlug: postsSlug,
+      data,
+      docPermissions: undefined,
+      docPreferences: {
+        fields: {},
+      },
+      documentFormState: undefined,
+      mockRSCs: true,
+      operation: 'create',
+      renderAllFields: false,
+      req,
+      schemaPath: postsSlug,
+    })
+
+    expect(state['validatePathArray.0.validatePathText']?.errorMessage).toBe(expectedMessage)
+
+    await expect(payload.create({ collection: postsSlug, data })).rejects.toMatchObject({
+      data: {
+        errors: [{ message: expectedMessage, path: 'validatePathArray.0.validatePathText' }],
+      },
+    })
+  })
 })
