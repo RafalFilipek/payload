@@ -147,9 +147,9 @@ export const i18n: Partial<GenericLanguages> = {
   },
   pl: {
     placeholder: "Rozpocznij pisanie lub naciśnij '/' dla poleceń...",
-    slashMenuBasicGroupLabel: 'Podstawowy',
+    slashMenuBasicGroupLabel: 'Podstawowe',
     slashMenuListGroupLabel: 'Listy',
-    toolbarItemsActive: '{{count}} aktywny',
+    toolbarItemsActive: 'Aktywne: {{count}}',
   },
   pt: {
     placeholder: "Comece a digitar, ou pressione '/' para comandos...",
