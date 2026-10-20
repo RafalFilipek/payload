@@ -17,6 +17,7 @@ export const categoriesSlug = 'categories'
 export const postsSlug = 'posts'
 export const pagesSlug = 'pages'
 export const mediaSlug = 'media'
+export const draftPostsSlug = 'draft-posts'
 
 // Tags hierarchy collection (multi-select)
 export const Tags: CollectionConfig = {
@@ -121,6 +122,26 @@ export const Pages: CollectionConfig = {
   versions: false,
 }
 
+// Collection with drafts that references tags (multi) and categories (single)
+export const DraftPosts: CollectionConfig = {
+  slug: draftPostsSlug,
+  admin: {
+    useAsTitle: 'title',
+  },
+  fields: [
+    {
+      name: 'title',
+      type: 'text',
+      required: true,
+    },
+    createTagField({ hasMany: false, label: 'Category', relationTo: categoriesSlug }),
+    createTagField({ hasMany: true, label: 'Tags', relationTo: tagsSlug }),
+  ],
+  versions: {
+    drafts: true,
+  },
+}
+
 // Media collection that references tags
 export const Media: CollectionConfig = {
   slug: mediaSlug,
@@ -147,7 +168,7 @@ export default buildConfigWithDefaults({
         baseDir: path.resolve(dirname),
       },
     },
-    collections: [Categories, Posts, Pages, Media, Tags],
+    collections: [Categories, Posts, DraftPosts, Pages, Media, Tags],
     debug: true,
     typescript: {
       outputFile: path.resolve(dirname, 'payload-types.ts'),
@@ -174,6 +195,7 @@ export default buildConfigWithDefaults({
 
 export {
   Categories as CategoriesCollection,
+  DraftPosts as DraftPostsCollection,
   Media as MediaCollection,
   Pages as PagesCollection,
   Posts as PostsCollection,
