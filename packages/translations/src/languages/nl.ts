@@ -529,6 +529,7 @@ export const nlTranslations: DefaultTranslationsObject = {
     selectValue: 'Selecteer een waarde',
     settings: 'Instellingen',
     showAllLabel: 'Toon alle {{label}}',
+    showingCurrentOfTotal: '{{current}} van {{total}} weergegeven',
     shownInTable: 'Weergegeven in tabel',
     showSidebar: 'Zijbalk weergeven',
     skipToContent: 'Ga naar inhoud',

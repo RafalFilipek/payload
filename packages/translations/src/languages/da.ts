@@ -520,6 +520,7 @@ export const daTranslations: DefaultTranslationsObject = {
     selectValue: 'Vælg en værdi',
     settings: 'Indstillinger',
     showAllLabel: 'Vis alle {{label}}',
+    showingCurrentOfTotal: 'Viser {{current}} af {{total}}',
     shownInTable: 'Vises i tabel',
     showSidebar: 'Vis sidepanel',
     skipToContent: 'Spring til indhold',

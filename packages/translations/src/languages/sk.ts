@@ -517,6 +517,7 @@ export const skTranslations: DefaultTranslationsObject = {
     selectValue: 'Vybrať hodnotu',
     settings: 'Nastavenia',
     showAllLabel: 'Zobraziť všetky {{label}}',
+    showingCurrentOfTotal: 'Zobrazené {{current}} z {{total}}',
     shownInTable: 'Zobrazené v tabuľke',
     showSidebar: 'Zobraziť bočný panel',
     skipToContent: 'Prejsť na obsah',
