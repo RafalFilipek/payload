@@ -226,16 +226,21 @@ export function fieldReducer(state: FormState, action: FieldAction): FormState {
       })
 
       /**
-       * Merge the server state into the previous state rather than storing `newState`.
        * `newState` can contain changes made while the request was in flight, e.g. a new row.
-       * The previous state must only reflect what the server has seen, otherwise the debounced
-       * onChange effect sees no difference and never sends those changes to the server.
+       * The previous state must not contain them, otherwise the debounced onChange effect sees no
+       * difference and never sends those changes to the server. So fields whose value or rows differ
+       * from what the server has seen keep the server state merged into the previous state.
+       * Other fields take `newState`, so client-only changes such as server errors added after a
+       * failed submit do not trigger another onChange request.
        */
       if (prevStateRef) {
-        prevStateRef.current = mergeServerFormState({
-          acceptValues,
-          currentState: prevStateRef.current || {},
-          incomingState: serverState,
+        prevStateRef.current = getPrevStateAfterMerge({
+          newState,
+          seenByServer: mergeServerFormState({
+            acceptValues,
+            currentState: prevStateRef.current || {},
+            incomingState: serverState,
+          }),
         })
       }
 
@@ -462,4 +467,28 @@ export function fieldReducer(state: FormState, action: FieldAction): FormState {
       return state
     }
   }
+}
+
+function getPrevStateAfterMerge({
+  newState,
+  seenByServer,
+}: {
+  newState: FormState
+  seenByServer: FormState
+}): FormState {
+  const prevState = { ...seenByServer }
+
+  for (const [path, field] of Object.entries(seenByServer)) {
+    const currentField = newState[path]
+
+    if (
+      currentField &&
+      dequal(currentField.value, field.value) &&
+      dequal(currentField.rows, field.rows)
+    ) {
+      prevState[path] = currentField
+    }
+  }
+
+  return prevState
 }
