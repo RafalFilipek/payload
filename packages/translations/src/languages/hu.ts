@@ -524,10 +524,26 @@ export const huTranslations: DefaultTranslationsObject = {
     select: 'Válasszon',
     selectAll: 'Az összes kijelölése: {{count}} {{label}}',
     selectAllRows: 'Válassza ki az összes sort',
+    selectCleared: 'Minden kiválasztott lehetőség törölve.',
+    selectDeselected: '{{label}} kijelölése megszüntetve.',
+    selectDisabledOption: 'A(z) {{label}} lehetőség nem elérhető. Válasszon másikat.',
     selectedCount: '{{count}} {{label}} kiválasztva',
     selectedDocument:
       'Kiválasztva. A kijelölés módosításához nyomja meg az Enter vagy a szóköz billentyűt.',
+    selectFocusedValue: 'Érték: {{label}}, {{position}}.',
+    selectGuidanceInput:
+      '{{label}}: gépeljen a lista szűkítéséhez, a lefelé nyíl megnyitja a menüt.',
+    selectGuidanceMenu:
+      'A fel és le nyilakkal választhat, az Enter kijelöli a lehetőséget, az Escape bezárja a menüt.',
+    selectGuidanceValue:
+      'A balra és jobbra nyilakkal léphet a kiválasztott értékek között, a Backspace törli az aktívat.',
     selectLabel: 'Válassza ki a(z) {{label}} opciót',
+    selectOptionDisabled: 'nem elérhető',
+    selectOptionSelected: 'kiválasztva',
+    selectPosition: '{{index}} / {{count}}',
+    selectResults: 'Találatok száma: {{count}}.',
+    selectResultsFor: '{{results}} Keresett szöveg: {{query}}.',
+    selectSelected: 'Kiválasztva: {{label}}.',
     selectValue: 'Válasszon ki egy értéket',
     settings: 'Beállítások',
     showAllLabel: 'Mutasd az összes {{címke}}',

@@ -520,10 +520,26 @@ export const ltTranslations: DefaultTranslationsObject = {
     select: 'Pasirinkite',
     selectAll: 'Pasirinkite visus {{count}} {{label}}',
     selectAllRows: 'Pasirinkite visas eilutes',
+    selectCleared: 'Visi pasirinkimai išvalyti.',
+    selectDeselected: '{{label}} pasirinkimas atšauktas.',
+    selectDisabledOption: 'Parinktis {{label}} neprieinama. Pasirinkite kitą.',
     selectedCount: '{{count}} {{label}} pasirinkta',
     selectedDocument:
       'Pasirinkta. Norėdami pakeisti pasirinkimą, paspauskite Enter arba tarpo klavišą.',
+    selectFocusedValue: 'Reikšmė {{label}}, {{position}}.',
+    selectGuidanceInput:
+      '{{label}}: rašykite, kad susiaurintumėte sąrašą, rodyklė žemyn atidaro meniu.',
+    selectGuidanceMenu:
+      'Rodyklėmis aukštyn ir žemyn renkatės parinktis, Enter pažymi parinktį, Escape uždaro meniu.',
+    selectGuidanceValue:
+      'Rodyklėmis kairėn ir dešinėn pereinate tarp pasirinktų reikšmių, Backspace pašalina pažymėtą.',
     selectLabel: 'Pasirinkite {{label}}',
+    selectOptionDisabled: 'neprieinama',
+    selectOptionSelected: 'pasirinkta',
+    selectPosition: '{{index}} iš {{count}}',
+    selectResults: 'Rezultatų: {{count}}.',
+    selectResultsFor: '{{results}} Paieškos tekstas: {{query}}.',
+    selectSelected: 'Pasirinkta: {{label}}.',
     selectValue: 'Pasirinkite reikšmę',
     settings: 'Nustatymai',
     showAllLabel: 'Rodyti visus {{label}}',
