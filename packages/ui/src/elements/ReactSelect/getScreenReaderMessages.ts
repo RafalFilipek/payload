@@ -20,7 +20,7 @@ export const getScreenReaderMessages = ({ t }: { t: TFunction }): ScreenReaderMe
 
   return {
     ariaLiveMessages: {
-      guidance: ({ context, isInitialFocus, 'aria-label': ariaLabel }) => {
+      guidance: ({ 'aria-label': ariaLabel, context, isInitialFocus }) => {
         switch (context) {
           case 'input':
             return isInitialFocus
