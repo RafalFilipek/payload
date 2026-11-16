@@ -492,6 +492,7 @@ export const csTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Obnovit nastavení',
     resetPreferencesDescription: 'Toto obnoví všechna vaše nastavení na výchozí hodnoty.',
     resettingPreferences: 'Obnovování nastavení.',
+    responsive: 'Responzivní',
     restore: 'Obnovit',
     restoreAsPublished: 'Obnovit jako publikovanou verzi',
     restoredCountSuccessfully: 'Úspěšně obnoveno {{count}} {{label}}.',

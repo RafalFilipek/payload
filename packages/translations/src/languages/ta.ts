@@ -489,6 +489,7 @@ export const taTranslations: DefaultTranslationsObject = {
     resetPreferences: 'அமைப்புகளை மீட்டமை',
     resetPreferencesDescription: 'இது உங்கள் அனைத்து விருப்பங்களையும் இயல்புநிலை அமைப்புகளுக்கு மாற்றும்.',
     resettingPreferences: 'அமைப்புகள் மீட்டமைக்கப்படுகிறது.',
+    responsive: 'பதிலளிக்கக்கூடிய',
     restore: 'மீட்டமை',
     restoreAsPublished: 'வெளியிடப்பட்ட பதிப்பாக மீட்டமை',
     restoredCountSuccessfully: '{{count}} {{label}} வெற்றிகரமாக மீட்டமைக்கப்பட்டது.',

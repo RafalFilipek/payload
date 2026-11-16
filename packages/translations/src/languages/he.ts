@@ -480,6 +480,7 @@ export const heTranslations: DefaultTranslationsObject = {
     resetPreferences: 'איפוס העדפות',
     resetPreferencesDescription: 'זאת תאפס את כל ההעדפות שלך להגדרות ברירת המחדל.',
     resettingPreferences: 'מאפס העדפות.',
+    responsive: 'רספונסיבי',
     restore: 'שחזור',
     restoreAsPublished: 'שחזר כגרסה שפורסמה',
     restoredCountSuccessfully: 'שוחזרו בהצלחה {{count}} {{label}}.',

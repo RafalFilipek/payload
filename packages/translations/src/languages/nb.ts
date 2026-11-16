@@ -498,6 +498,7 @@ export const nbTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Dette vil tilbakestille alle preferansene dine til standardinnstillingene.',
     resettingPreferences: 'Tilbakestiller preferanser.',
+    responsive: 'Responsiv',
     restore: 'Gjenopprett',
     restoreAsPublished: 'Gjenopprett som publisert versjon',
     restoredCountSuccessfully: 'Gjenopprettet {{count}} {{label}} vellykket.',

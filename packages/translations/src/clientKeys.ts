@@ -423,6 +423,7 @@ export const clientTranslationKeys = createClientTranslationKeys([
   'general:resetPreferences',
   'general:resetPreferencesDescription',
   'general:resettingPreferences',
+  'general:responsive',
   'general:restore',
   'general:retry',
   'general:restoreAsPublished',

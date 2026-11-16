@@ -470,6 +470,7 @@ export const zhTwTranslations: DefaultTranslationsObject = {
     resetPreferences: '重設偏好設定',
     resetPreferencesDescription: '此操作會將所有偏好設定恢復為預設值。',
     resettingPreferences: '正在重設偏好設定。',
+    responsive: '響應式',
     restore: '還原',
     restoreAsPublished: '還原為已發佈版本',
     restoredCountSuccessfully: '已成功還原 {{count}} 個 {{label}}。',

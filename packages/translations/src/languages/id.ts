@@ -499,6 +499,7 @@ export const idTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Ini akan mengatur ulang semua preferensi Anda ke pengaturan default.',
     resettingPreferences: 'Mengatur Ulang Preferensi.',
+    responsive: 'Responsif',
     restore: 'Pulihkan',
     restoreAsPublished: 'Pulihkan sebagai versi yang diterbitkan',
     restoredCountSuccessfully: 'Berhasil memulihkan {{count}} {{label}}.',

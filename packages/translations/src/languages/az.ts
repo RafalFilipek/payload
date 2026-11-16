@@ -499,6 +499,7 @@ export const azTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Təhlükəsizlik parametrlərini sıfırlamaq',
     resetPreferencesDescription: 'Bu, bütün parametrlərinizi standart vəziyyətlərinə sıfırlayacaq.',
     resettingPreferences: 'Təhlükəsizlik parametrləri sıfırlanır.',
+    responsive: 'Responsiv',
     restore: 'Bərpa et',
     restoreAsPublished: 'Nəşr edilmiş versiya kimi bərpa et',
     restoredCountSuccessfully: '{{count}} {{label}} uğurla bərpa edildi.',

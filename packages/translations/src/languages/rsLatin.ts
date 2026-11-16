@@ -496,6 +496,7 @@ export const rsLatinTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Ovo će poništiti sva vaša podešavanja na podrazumevane vrednosti.',
     resettingPreferences: 'Poništavanje podešavanja.',
+    responsive: 'Responzivno',
     restore: 'Vrati',
     restoreAsPublished: 'Vrati kao objavljenu verziju',
     restoredCountSuccessfully: 'Uspešno obnovljeno {{count}} {{label}}.',

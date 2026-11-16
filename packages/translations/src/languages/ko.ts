@@ -493,6 +493,7 @@ export const koTranslations: DefaultTranslationsObject = {
     resetPreferences: '기본 설정으로 재설정',
     resetPreferencesDescription: '이렇게 하면 모든 기본 설정이 기본값으로 재설정됩니다.',
     resettingPreferences: '기본 설정을 재설정하는 중.',
+    responsive: '반응형',
     restore: '복원',
     restoreAsPublished: '게시된 버전으로 복원하다',
     restoredCountSuccessfully: '성공적으로 {{count}} {{label}}를 복원했습니다.',

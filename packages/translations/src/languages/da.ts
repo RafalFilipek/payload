@@ -495,6 +495,7 @@ export const daTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Dette vil nulstille alle dine præferencer til standardindstillingerne.',
     resettingPreferences: 'Nulstiller præferencer.',
+    responsive: 'Responsiv',
     restore: 'Gendan',
     restoreAsPublished: 'Gendan som udgivet version',
     restoredCountSuccessfully: 'Gendannede {{count}} {{label}} succesfuldt.',

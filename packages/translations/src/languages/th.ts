@@ -476,6 +476,7 @@ export const thTranslations: DefaultTranslationsObject = {
     resetPreferences: 'รีเซ็ตการตั้งค่า',
     resetPreferencesDescription: 'การกระทำนี้จะรีเซ็ตการตั้งค่าทั้งหมดของคุณเป็นค่าเริ่มต้น',
     resettingPreferences: 'กำลังรีเซ็ตการตั้งค่า',
+    responsive: 'รองรับทุกหน้าจอ',
     restore: 'กู้คืน',
     restoreAsPublished: 'เรียกคืนเป็นเวอร์ชันที่เผยแพร่',
     restoredCountSuccessfully: 'ได้ทำการกู้คืน {{count}} {{label}} สำเร็จแล้ว',

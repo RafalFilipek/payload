@@ -504,6 +504,7 @@ export const nlTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Dit zal al je voorkeuren terugzetten naar de standaardinstellingen.',
     resettingPreferences: 'Voorkeuren worden gereset.',
+    responsive: 'Responsief',
     restore: 'Herstellen',
     restoreAsPublished: 'Herstellen als gepubliceerde versie',
     restoredCountSuccessfully: '{{count}} {{label}} succesvol hersteld.',

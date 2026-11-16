@@ -501,6 +501,7 @@ export const caTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Això restablirà totes les teves preferències a les configuracions per defecte.',
     resettingPreferences: 'Restablint les preferències.',
+    responsive: 'Adaptable',
     restore: 'Restaura',
     restoreAsPublished: 'Restaura com a versió publicada',
     restoredCountSuccessfully: "S'ha restaurat {{count}} {{label}} correctament.",

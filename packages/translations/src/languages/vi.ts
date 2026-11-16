@@ -497,6 +497,7 @@ export const viTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Đặt lại tuỳ chỉnh cá nhân',
     resetPreferencesDescription: 'Điều này sẽ đặt lại tất cả các tuỳ chỉnh của bạn về mặc định.',
     resettingPreferences: 'Đang đặt lại tuỳ chỉnh...',
+    responsive: 'Đáp ứng',
     restore: 'Khôi phục',
     restoreAsPublished: 'Khôi phục thành phiên bản đã xuất bản',
     restoredCountSuccessfully: 'Đã khôi phục {{count}} {{label}} thành công.',

@@ -505,6 +505,7 @@ export const esTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Esto restablecerá todas tus preferencias a los valores predeterminados.',
     resettingPreferences: 'Restableciendo preferencias...',
+    responsive: 'Adaptable',
     restore: 'Restaurar',
     restoreAsPublished: 'Restaurar como versión publicada',
     restoredCountSuccessfully: 'Restaurado {{count}} {{label}} con éxito.',

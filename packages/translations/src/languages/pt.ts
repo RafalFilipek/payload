@@ -500,6 +500,7 @@ export const ptTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Isso redefinirá todas as suas preferências para as configurações padrão.',
     resettingPreferences: 'Redefinindo preferências.',
+    responsive: 'Responsivo',
     restore: 'Restaurar',
     restoreAsPublished: 'Restaurar como versão publicada',
     restoredCountSuccessfully: 'Restaurado {{count}} {{label}} com sucesso.',

@@ -497,6 +497,7 @@ export const bgTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Това ще нулира всички ваши предпочитания до техните настройки по подразбиране.',
     resettingPreferences: 'Нулиране на предпочитанията.',
+    responsive: 'Адаптивен',
     restore: 'Възстановяване',
     restoreAsPublished: 'Възстановете като публикувана версия',
     restoredCountSuccessfully: 'Успешно възстановени {{count}} {{label}}.',

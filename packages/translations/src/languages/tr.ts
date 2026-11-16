@@ -501,6 +501,7 @@ export const trTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Bu, tüm tercihlerinizin varsayılan ayarlara sıfırlanmasını sağlar.',
     resettingPreferences: 'Tercihler sıfırlanıyor.',
+    responsive: 'Duyarlı',
     restore: 'Geri Yükle',
     restoreAsPublished: 'Yayınlanan sürüm olarak geri yükle',
     restoredCountSuccessfully: '{{count}} {{label}} başarıyla geri yüklendi.',

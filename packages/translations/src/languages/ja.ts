@@ -497,6 +497,7 @@ export const jaTranslations: DefaultTranslationsObject = {
     resetPreferences: '設定をリセット',
     resetPreferencesDescription: 'これにより、すべての設定がデフォルト設定にリセットされます。',
     resettingPreferences: '設定をリセットしています。',
+    responsive: 'レスポンシブ',
     restore: '復元',
     restoreAsPublished: '公開バージョンとして復元する',
     restoredCountSuccessfully: '{{count}} {{label}} の復元に成功しました。',

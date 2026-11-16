@@ -493,6 +493,7 @@ export const isTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Þetta mun endurstilla allar stillingarnar þínar í sjálfgefnar stillingar.',
     resettingPreferences: 'Endurstilli þínar stillingar.',
+    responsive: 'Aðlögunarhæft',
     restore: 'Endurheimta',
     restoreAsPublished: 'Endurheimta sem útgefna útgáfu',
     restoredCountSuccessfully: 'Endurheimti {{count}} {{label}}.',
