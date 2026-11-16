@@ -493,6 +493,7 @@ export const skTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Obnoviť nastavenia',
     resetPreferencesDescription: 'Týmto sa všetky vaše nastavenia vrátia na predvolené hodnoty.',
     resettingPreferences: 'Obnovovanie nastavení.',
+    responsive: 'Responzívne',
     restore: 'Obnoviť',
     restoreAsPublished: 'Obnoviť ako publikovanú verziu',
     restoredCountSuccessfully: 'Úspešne obnovené {{count}} {{label}}.',

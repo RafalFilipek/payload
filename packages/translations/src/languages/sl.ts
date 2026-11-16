@@ -494,6 +494,7 @@ export const slTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Ponastavi nastavitve',
     resetPreferencesDescription: 'To bo ponastavilo vse vaše nastavitve na privzete vrednosti.',
     resettingPreferences: 'Ponastavitev nastavitve.',
+    responsive: 'Odzivno',
     restore: 'Obnovi',
     restoreAsPublished: 'Obnovi kot objavljeno različico',
     restoredCountSuccessfully: 'Uspešno obnovljeno {{count}} {{label}}.',

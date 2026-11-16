@@ -497,6 +497,7 @@ export const svTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Detta kommer att återställa alla dina preferenser till standardinställningarna.',
     resettingPreferences: 'Återställer preferenser...',
+    responsive: 'Responsiv',
     restore: 'Återställ',
     restoreAsPublished: 'Återställ som publicerad version',
     restoredCountSuccessfully: 'Återställde {{count}} {{label}}.',

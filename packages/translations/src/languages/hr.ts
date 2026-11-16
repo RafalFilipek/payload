@@ -495,6 +495,7 @@ export const hrTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Ponovno postavljanje postavki',
     resetPreferencesDescription: 'Ovo će vratiti sve vaše postavke na zadane vrijednosti.',
     resettingPreferences: 'Ponovno postavljanje postavki.',
+    responsive: 'Responzivno',
     restore: 'Obnovi',
     restoreAsPublished: 'Vrati kao objavljenu verziju',
     restoredCountSuccessfully: 'Uspješno obnovljeno {{count}} {{label}}.',

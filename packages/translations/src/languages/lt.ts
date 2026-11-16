@@ -500,6 +500,7 @@ export const ltTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Atstatyti nuostatas',
     resetPreferencesDescription: 'Tai atstatys visas jūsų nuostatas į numatytąsias reikšmes.',
     resettingPreferences: 'Nustatymų atstatymas.',
+    responsive: 'Prisitaikantis',
     restore: 'Atkurti',
     restoreAsPublished: 'Atkurti kaip publikuotą versiją',
     restoredCountSuccessfully: 'Sėkmingai atkurtas {{count}} {{label}}.',

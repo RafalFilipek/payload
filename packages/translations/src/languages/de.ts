@@ -508,6 +508,7 @@ export const deTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Präferenzen zurücksetzen',
     resetPreferencesDescription: 'Alle Präferenzen werden auf die Standardwerte zurückgesetzt.',
     resettingPreferences: 'Präferenzen werden zurückgesetzt.',
+    responsive: 'Responsiv',
     restore: 'Wiederherstellen',
     restoreAsPublished: 'Wiederherstellen als veröffentlichte Version',
     restoredCountSuccessfully: '{{count}} {{label}} erfolgreich wiederhergestellt.',

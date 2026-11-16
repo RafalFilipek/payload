@@ -9,6 +9,7 @@ import type { LivePreviewContextType } from './context.js'
 import { usePopupWindow } from '../../hooks/usePopupWindow.js'
 import { useDocumentInfo } from '../../providers/DocumentInfo/index.js'
 import { usePreferences } from '../../providers/Preferences/index.js'
+import { useTranslation } from '../../providers/Translation/index.js'
 import { formatAbsoluteURL } from '../../utilities/formatAbsoluteURL.js'
 import { isHttpURL } from '../../utilities/isHttpURL.js'
 import { customCollisionDetection } from './collisionDetection.js'
@@ -66,17 +67,19 @@ export const LivePreviewProvider: React.FC<LivePreviewProviderProps> = ({
     [],
   )
 
+  const { t } = useTranslation()
+
   const breakpoints: LivePreviewConfig['breakpoints'] = useMemo(
     () => [
       ...(incomingBreakpoints || []),
       {
         name: 'responsive',
         height: '100%',
-        label: 'Responsive',
+        label: t('general:responsive'),
         width: '100%',
       },
     ],
-    [incomingBreakpoints],
+    [incomingBreakpoints, t],
   )
 
   const [url, setURL] = useState<string>('')

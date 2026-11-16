@@ -500,6 +500,7 @@ export const ruTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Сбросить настройки',
     resetPreferencesDescription: 'Это сбросит все ваши настройки до значений по умолчанию.',
     resettingPreferences: 'Сброс настроек.',
+    responsive: 'Адаптивный',
     restore: 'Восстановить',
     restoreAsPublished: 'Восстановить как опубликованную версию',
     restoredCountSuccessfully: 'Восстановлено успешно {{count}} {{label}}.',

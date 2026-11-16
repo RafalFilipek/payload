@@ -488,6 +488,7 @@ export const faTranslations: DefaultTranslationsObject = {
     resetPreferences: 'بازنشانی تنظیمات شخصی',
     resetPreferencesDescription: 'این کار تمام تنظیمات شخصی شما را به حالت پیش‌فرض برمی‌گرداند.',
     resettingPreferences: 'در حال بازنشانی تنظیمات...',
+    responsive: 'واکنش‌گرا',
     restore: 'بازیابی',
     restoreAsPublished: 'بازیابی به عنوان نسخه منتشر شده',
     restoredCountSuccessfully: '{{count}} {{label}} با موفقیت بازیابی شد.',

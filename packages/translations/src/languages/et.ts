@@ -492,6 +492,7 @@ export const etTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Lähtesta eelistused',
     resetPreferencesDescription: 'See lähtestab kõik teie eelistused vaikeväärtustele.',
     resettingPreferences: 'Lähtestan eelistusi.',
+    responsive: 'Kohanduv',
     restore: 'Taasta',
     restoreAsPublished: 'Taasta avaldatud versioonina',
     restoredCountSuccessfully: 'Taastatud {{count}} {{label}} edukalt.',

@@ -497,6 +497,7 @@ export const enTranslations = {
     resetPreferencesDescription:
       'This will reset all of your preferences to their default settings.',
     resettingPreferences: 'Resetting Preferences.',
+    responsive: 'Responsive',
     restore: 'Restore',
     restoreAsPublished: 'Restore as published version',
     restoredCountSuccessfully: 'Restored {{count}} {{label}} successfully.',

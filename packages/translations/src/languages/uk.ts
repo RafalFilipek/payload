@@ -492,6 +492,7 @@ export const ukTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Скинути налаштування',
     resetPreferencesDescription: 'Це скине всі ваші налаштування до значень за замовчуванням.',
     resettingPreferences: 'Скидання налаштувань.',
+    responsive: 'Адаптивний',
     restore: 'Відновити',
     restoreAsPublished: 'Відновити як опубліковану версію',
     restoredCountSuccessfully: 'Відновлено {{count}} {{label}} успішно.',

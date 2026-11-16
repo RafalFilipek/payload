@@ -509,6 +509,7 @@ export const frTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Cela réinitialisera toutes vos préférences aux paramètres par défaut.',
     resettingPreferences: 'Réinitialisation des préférences.',
+    responsive: 'Adaptatif',
     restore: 'Restaurer',
     restoreAsPublished: 'Restaurer en tant que version publiée',
     restoredCountSuccessfully: '{{count}} {{label}} restauré avec succès.',

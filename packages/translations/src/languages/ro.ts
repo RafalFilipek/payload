@@ -502,6 +502,7 @@ export const roTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Resetare preferințe',
     resetPreferencesDescription: 'Aceasta va reseta toate preferințele tale la setările implicite.',
     resettingPreferences: 'Resetare preferințe.',
+    responsive: 'Responsiv',
     restore: 'Restaurare',
     restoreAsPublished: 'Restabilește ca versiune publicată',
     restoredCountSuccessfully: '{{count}} {{label}} restabilite cu succes.',

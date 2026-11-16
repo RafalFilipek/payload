@@ -484,6 +484,7 @@ export const arTranslations: DefaultTranslationsObject = {
     resetPreferences: 'إعادة تعيين التفضيلات',
     resetPreferencesDescription: 'سيؤدي ذلك إلى إعادة تعيين جميع تفضيلاتك إلى الإعدادات الافتراضية.',
     resettingPreferences: 'إعادة تعيين التفضيلات.',
+    responsive: 'متجاوب',
     restore: 'استعادة',
     restoreAsPublished: 'استعادة كإصدار منشور',
     restoredCountSuccessfully: 'تمت استعادة {{count}} {{label}} بنجاح.',

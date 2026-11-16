@@ -496,6 +496,7 @@ export const bnBdTranslations: DefaultTranslationsObject = {
     resetPreferences: 'পছন্দগুলি রিসেট করুন',
     resetPreferencesDescription: 'এটি আপনার সমস্ত পছন্দগুলি তাদের ডিফল্ট সেটিংসে রিসেট করবে।',
     resettingPreferences: 'পছন্দগুলি রিসেট করা হচ্ছে।',
+    responsive: 'রেসপন্সিভ',
     restore: 'পুনরুদ্ধার করুন',
     restoreAsPublished: 'প্রকাশিত সংস্করণ হিসাবে পুনরুদ্ধার করুন',
     restoredCountSuccessfully: '{{count}} {{label}} সফলভাবে পুনরুদ্ধার করা হয়েছে।',

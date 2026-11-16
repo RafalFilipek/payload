@@ -503,6 +503,7 @@ export const huTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Ez visszaállítja az összes beállítást az alapértelmezett értékekre.',
     resettingPreferences: 'Beállítások visszaállítása.',
+    responsive: 'Reszponzív',
     restore: 'Visszaállítás',
     restoreAsPublished: 'Állítsa vissza közzétett változatként',
     restoredCountSuccessfully: 'Sikeresen visszaállított {{count}} {{label}}.',

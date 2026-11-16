@@ -498,6 +498,7 @@ export const hyTranslations: DefaultTranslationsObject = {
     resetPreferencesDescription:
       'Սա կվերակայի Ձեր բոլոր նախընտրությունները դեպի լռելյայն կարգավորումներ։',
     resettingPreferences: 'Նախընտրությունները վերակայվում են',
+    responsive: 'Ադապտիվ',
     restore: 'Վերականգնել',
     restoreAsPublished: 'Վերականգնել որպես հրատարակված տարբերակ',
     restoredCountSuccessfully: '{{count}} {{label}} հաջողությամբ վերականգնվեց:',

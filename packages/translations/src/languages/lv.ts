@@ -496,6 +496,7 @@ export const lvTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Atiestatīt iestatījumus',
     resetPreferencesDescription: 'Tas atjaunos visus jūsu iestatījumus uz noklusētajiem.',
     resettingPreferences: 'Atiestata iestatījumus...',
+    responsive: 'Adaptīvs',
     restore: 'Atjaunot',
     restoreAsPublished: 'Atjaunot kā publicēto versiju',
     restoredCountSuccessfully: 'Veiksmīgi atjaunots {{count}} {{label}}.',

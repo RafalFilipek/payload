@@ -486,6 +486,7 @@ export const myTranslations: DefaultTranslationsObject = {
     resetPreferences: 'ကြိုတင်သတ်မှတ်ချက်များ ပြန်လည်တပ်ဆင်မည်',
     resetPreferencesDescription: 'ဤသည်သည် သင့်၏အကြိုက်များအားလုံးကို အခြားတပ်ဆင်မှုများမှ ပြန်လည်သတ်မှတ်ပေးပါလိမ့်မည်။',
     resettingPreferences: 'ကြိုတင်သတ်မှတ်ချက်များ ပြန်လည်တပ်ဆင်နေပါသည်။',
+    responsive: 'တုံ့ပြန်မှုရှိသော',
     restore: 'ပြန်လည်ရယူပါ',
     restoreAsPublished: 'ထုတ်ဝေထားသော ဗားရှင်းအဖြစ် ပြန်လည်ရယူပါ',
     restoredCountSuccessfully: '{{count}} {{label}} ကို အောင်မြင်စွာ ပြန်လည်ရယူပြီးပါပြီ။',

@@ -496,6 +496,7 @@ export const plTranslations: DefaultTranslationsObject = {
     resetPreferences: 'Zresetuj preferencje',
     resetPreferencesDescription: 'To zresetuje wszystkie Twoje preferencje do ustawień domyślnych.',
     resettingPreferences: 'Resetowanie preferencji.',
+    responsive: 'Dopasuj do okna',
     restore: 'Przywróć',
     restoreAsPublished: 'Przywróć jako opublikowaną wersję',
     restoredCountSuccessfully: 'Pomyślnie przywrócono {{count}} {{label}}.',
