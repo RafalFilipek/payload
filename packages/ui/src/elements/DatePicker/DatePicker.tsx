@@ -208,6 +208,7 @@ const DatePicker: React.FC<Props> = (props) => {
     customInputRef: 'ref',
     dateFormat,
     disabled: readOnly,
+    locale: i18n.dateFNS,
     maxDate,
     maxTime,
     minDate,
@@ -229,6 +230,7 @@ const DatePicker: React.FC<Props> = (props) => {
     showPopperArrow: false,
     showTimeSelect: pickerAppearance === 'dayAndTime' || pickerAppearance === 'timeOnly',
     showTimeSelectOnly: pickerAppearance === 'timeOnly',
+    timeCaption: t('general:time'),
     timeFormat,
     timeIntervals,
     ...(overrides as Extract<
