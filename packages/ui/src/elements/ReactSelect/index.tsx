@@ -22,6 +22,7 @@ import { DropdownIndicator } from './DropdownIndicator/index.js'
 import { getCaptureMenuScroll } from './getCaptureMenuScroll.js'
 import { getMenuListStyles } from './getMenuListStyles.js'
 import { getMenuStyles } from './getMenuStyles.js'
+import { getScreenReaderMessages } from './getScreenReaderMessages.js'
 import { Input } from './Input/index.js'
 import { generateMultiValueDraggableID, MultiValue } from './MultiValue/index.js'
 import { MultiValueLabel } from './MultiValueLabel/index.js'
@@ -35,6 +36,7 @@ const DEFAULT_MAX_MENU_HEIGHT = 300
 
 const SelectAdapter: React.FC<ReactSelectAdapterProps> = (props) => {
   const { i18n, t } = useTranslation()
+  const screenReaderMessages = useMemo(() => getScreenReaderMessages({ t }), [t])
   const [inputValue, setInputValue] = useState('') // for creatable select
   const uuid = useId()
   const [hasMounted, setHasMounted] = useState(false)
@@ -151,6 +153,7 @@ const SelectAdapter: React.FC<ReactSelectAdapterProps> = (props) => {
     isLoading: isLoadingDebounced,
     isSearchable,
     loadingMessage: () => t('general:loading') + '...',
+    ...screenReaderMessages,
     maxMenuHeight: DEFAULT_MAX_MENU_HEIGHT,
     menuPlacement: 'auto' as const,
     menuPortalTarget,

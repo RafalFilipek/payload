@@ -528,10 +528,26 @@ export const deTranslations: DefaultTranslationsObject = {
     select: 'Auswählen',
     selectAll: 'Alle {{count}} {{label}} auswählen',
     selectAllRows: 'Alle Zeilen auswählen',
+    selectCleared: 'Alle ausgewählten Optionen wurden entfernt.',
+    selectDeselected: '{{label}} abgewählt.',
+    selectDisabledOption: 'Option {{label}} ist deaktiviert. Wählen Sie eine andere Option.',
     selectedCount: '{{count}} {{label}} ausgewählt',
     selectedDocument:
       'Ausgewählt. Drücken Sie die Eingabetaste oder die Leertaste, um die Auswahl zu ändern.',
+    selectFocusedValue: 'Wert {{label}} fokussiert, {{position}}.',
+    selectGuidanceInput:
+      '{{label}} ist fokussiert. Tippen Sie, um die Liste einzugrenzen, Pfeil nach unten öffnet das Menü.',
+    selectGuidanceMenu:
+      'Mit Pfeil nach oben und unten Optionen wählen, Enter wählt die fokussierte Option, Escape schließt das Menü.',
+    selectGuidanceValue:
+      'Mit Pfeil nach links und rechts zwischen ausgewählten Werten wechseln, Rücktaste entfernt den fokussierten Wert.',
     selectLabel: '{{label}} auswählen',
+    selectOptionDisabled: 'deaktiviert',
+    selectOptionSelected: 'ausgewählt',
+    selectPosition: '{{index}} von {{count}}',
+    selectResults: '{{count}} Ergebnisse verfügbar.',
+    selectResultsFor: '{{results}} Suchbegriff: {{query}}.',
+    selectSelected: '{{label}} ausgewählt.',
     selectValue: 'Wert auswählen',
     settings: 'Einstellungen',
     showAllLabel: 'Alle {{label}} anzeigen',

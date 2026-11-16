@@ -523,10 +523,26 @@ export const itTranslations: DefaultTranslationsObject = {
     select: 'Seleziona',
     selectAll: 'Seleziona tutto {{count}} {{label}}',
     selectAllRows: 'Seleziona tutte le righe',
+    selectCleared: 'Tutte le opzioni selezionate sono state rimosse.',
+    selectDeselected: '{{label}} deselezionato.',
+    selectDisabledOption: "L'opzione {{label}} è disattivata. Seleziona un'altra opzione.",
     selectedCount: '{{count}} {{label}} selezionato',
     selectedDocument:
       'Selezionato. Premi Invio o la barra spaziatrice per modificare la selezione.',
+    selectFocusedValue: 'Valore {{label}} attivo, {{position}}.',
+    selectGuidanceInput:
+      '{{label}} è attivo. Digita per filtrare l’elenco, freccia giù apre il menu.',
+    selectGuidanceMenu:
+      'Usa le frecce su e giù per scegliere le opzioni, Invio per selezionare l’opzione attiva, Esc per chiudere il menu.',
+    selectGuidanceValue:
+      'Usa le frecce sinistra e destra per spostarti tra i valori selezionati, Backspace rimuove il valore attivo.',
     selectLabel: 'Seleziona {{label}}',
+    selectOptionDisabled: 'disattivata',
+    selectOptionSelected: 'selezionata',
+    selectPosition: '{{index}} di {{count}}',
+    selectResults: '{{count}} risultati disponibili.',
+    selectResultsFor: '{{results}} Termine di ricerca: {{query}}.',
+    selectSelected: '{{label}} selezionato.',
     selectValue: 'Seleziona un valore',
     settings: 'Impostazioni',
     showAllLabel: 'Mostra tutti {{label}}',
