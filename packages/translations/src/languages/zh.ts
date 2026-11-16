@@ -555,6 +555,7 @@ export const zhTranslations: DefaultTranslationsObject = {
     yes: '是的',
   },
   hierarchy: {
+    allowedTypesDescription: '选择此项目可以包含的集合类型',
     folderLocation: '文件夹位置',
     goTo: '前往“{{name}}”',
     itemsMovedTo: '{{title}} 已移至 {{destination}}',

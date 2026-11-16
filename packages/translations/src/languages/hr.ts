@@ -580,6 +580,7 @@ export const hrTranslations: DefaultTranslationsObject = {
     yes: 'Da',
   },
   hierarchy: {
+    allowedTypesDescription: 'Odaberite vrste kolekcija koje ova stavka može sadržavati',
     folderLocation: 'Lokacija mape',
     goTo: 'Idite na "{{name}}"',
     itemsMovedTo: '{{title}} premješten na {{destination}}',

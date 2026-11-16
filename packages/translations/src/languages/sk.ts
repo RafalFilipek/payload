@@ -577,6 +577,7 @@ export const skTranslations: DefaultTranslationsObject = {
     yes: 'Áno',
   },
   hierarchy: {
+    allowedTypesDescription: 'Vyberte typy kolekcií, ktoré môže táto položka obsahovať',
     folderLocation: 'Umiestnenie priečinka',
     goTo: 'Prejdite na "{{name}}"',
     itemsMovedTo: '{{title}} presunuté do {{destination}}',

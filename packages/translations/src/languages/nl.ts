@@ -589,6 +589,7 @@ export const nlTranslations: DefaultTranslationsObject = {
     yes: 'Ja',
   },
   hierarchy: {
+    allowedTypesDescription: 'Selecteer de collectietypen die dit item kan bevatten',
     folderLocation: 'Maplocatie',
     goTo: 'Ga naar "{{name}}"',
     itemsMovedTo: '{{title}} verplaatst naar {{destination}}',

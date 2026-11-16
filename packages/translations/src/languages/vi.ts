@@ -581,6 +581,7 @@ export const viTranslations: DefaultTranslationsObject = {
     yes: 'Có',
   },
   hierarchy: {
+    allowedTypesDescription: 'Chọn các loại bộ sưu tập mà mục này có thể chứa',
     folderLocation: 'Vị trí thư mục',
     goTo: 'Đi đến "{{name}}"',
     itemsMovedTo: '{{title}} đã di chuyển đến {{destination}}',

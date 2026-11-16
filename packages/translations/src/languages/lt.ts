@@ -585,6 +585,7 @@ export const ltTranslations: DefaultTranslationsObject = {
     yes: 'Taip',
   },
   hierarchy: {
+    allowedTypesDescription: 'Pasirinkite kolekcijų tipus, kuriuos gali turėti šis elementas',
     folderLocation: 'Aplanko vieta',
     goTo: 'Eikite į "{{name}}"',
     itemsMovedTo: '{{title}} perkeltas į {{destination}}',

@@ -580,6 +580,7 @@ export const enTranslations = {
     yes: 'Yes',
   },
   hierarchy: {
+    allowedTypesDescription: 'Select the collection types this item can contain',
     folderLocation: 'Folder location',
     goTo: 'Go to "{{name}}"',
     itemsMovedTo: '{{title}} moved to {{destination}}',

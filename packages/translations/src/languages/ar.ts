@@ -568,6 +568,7 @@ export const arTranslations: DefaultTranslationsObject = {
     yes: 'نعم',
   },
   hierarchy: {
+    allowedTypesDescription: 'اختر أنواع المجموعات التي يمكن أن يحتويها هذا العنصر',
     folderLocation: 'موقع المجلد',
     goTo: 'اذهب إلى "{{name}}"',
     itemsMovedTo: '{{title}} تم نقله إلى {{destination}}',

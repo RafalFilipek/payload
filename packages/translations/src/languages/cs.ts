@@ -577,6 +577,7 @@ export const csTranslations: DefaultTranslationsObject = {
     yes: 'Ano',
   },
   hierarchy: {
+    allowedTypesDescription: 'Vyberte typy kolekcí, které může tato položka obsahovat',
     folderLocation: 'Umístění složky',
     goTo: 'Přejděte na "{{name}}"',
     itemsMovedTo: '{{title}} byl přesunut do {{destination}}',

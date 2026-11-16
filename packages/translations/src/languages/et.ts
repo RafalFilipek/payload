@@ -576,6 +576,7 @@ export const etTranslations: DefaultTranslationsObject = {
     yes: 'Jah',
   },
   hierarchy: {
+    allowedTypesDescription: 'Valige kollektsioonitüübid, mida see üksus võib sisaldada',
     folderLocation: 'Kausta asukoht',
     goTo: 'Mine "{{name}}" juurde',
     itemsMovedTo: '{{title}} viidi üle {{destination}}',

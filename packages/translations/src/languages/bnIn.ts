@@ -581,6 +581,7 @@ export const bnInTranslations: DefaultTranslationsObject = {
     yes: 'হ্যাঁ',
   },
   hierarchy: {
+    allowedTypesDescription: 'এই আইটেমে কোন কালেকশনের ধরন থাকতে পারে তা নির্বাচন করুন',
     folderLocation: 'ফোল্ডারের অবস্থান',
     goTo: '"{{name}}" তে যান',
     itemsMovedTo: '{{title}} টি {{destination}} এ সরিয়ে নেওয়া হলো।',

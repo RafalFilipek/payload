@@ -553,6 +553,7 @@ export const zhTwTranslations: DefaultTranslationsObject = {
     yes: '是',
   },
   hierarchy: {
+    allowedTypesDescription: '選擇此項目可以包含的集合類型',
     folderLocation: '資料夾位置',
     goTo: '前往「{{name}}」',
     itemsMovedTo: '{{title}} 移至 {{destination}}',

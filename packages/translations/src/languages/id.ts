@@ -585,6 +585,7 @@ export const idTranslations: DefaultTranslationsObject = {
     yes: 'Ya',
   },
   hierarchy: {
+    allowedTypesDescription: 'Pilih jenis koleksi yang dapat ditampung item ini',
     folderLocation: 'Lokasi folder',
     goTo: 'Buka "{{name}}"',
     itemsMovedTo: '{{title}} dipindahkan ke {{destination}}',

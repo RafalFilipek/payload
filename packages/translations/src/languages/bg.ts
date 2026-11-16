@@ -581,6 +581,7 @@ export const bgTranslations: DefaultTranslationsObject = {
     yes: 'Да',
   },
   hierarchy: {
+    allowedTypesDescription: 'Изберете типовете колекции, които този елемент може да съдържа',
     folderLocation: 'Местоположение на папката',
     goTo: 'Отидете на "{{name}}"',
     itemsMovedTo: '{{title}} беше преместен в {{destination}}',

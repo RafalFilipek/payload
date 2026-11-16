@@ -580,6 +580,7 @@ export const plTranslations: DefaultTranslationsObject = {
     yes: 'Tak',
   },
   hierarchy: {
+    allowedTypesDescription: 'Wybierz typy kolekcji, które może zawierać ten element',
     folderLocation: 'Lokalizacja folderu',
     goTo: 'Przejdź do "{{name}}"',
     itemsMovedTo: '{{title}} został przeniesiony do {{destination}}',

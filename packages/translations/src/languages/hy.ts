@@ -585,6 +585,7 @@ export const hyTranslations: DefaultTranslationsObject = {
     yes: 'Այո',
   },
   hierarchy: {
+    allowedTypesDescription: 'Ընտրեք հավաքածուների տեսակները, որոնք կարող է պարունակել այս տարրը',
     folderLocation: 'Պանակի տեղադրություն',
     goTo: 'Անցեք "{{name}}"',
     itemsMovedTo: '{{title}} տեղափոխվեց {{destination}}։',

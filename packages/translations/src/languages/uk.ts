@@ -576,6 +576,7 @@ export const ukTranslations: DefaultTranslationsObject = {
     yes: 'Так',
   },
   hierarchy: {
+    allowedTypesDescription: 'Виберіть типи колекцій, які може містити цей елемент',
     folderLocation: 'Розташування папки',
     goTo: 'Перейти до "{{name}}"',
     itemsMovedTo: '{{title}} перейшов до {{destination}}',

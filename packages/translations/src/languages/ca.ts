@@ -585,6 +585,7 @@ export const caTranslations: DefaultTranslationsObject = {
     yes: 'Sí',
   },
   hierarchy: {
+    allowedTypesDescription: 'Selecciona els tipus de col·lecció que pot contenir aquest element',
     folderLocation: 'Ubicació de la carpeta',
     goTo: 'Vés a "{{name}}"',
     itemsMovedTo: "{{title}} s'ha traslladat a {{destination}}",

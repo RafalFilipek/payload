@@ -579,6 +579,7 @@ export const rsTranslations: DefaultTranslationsObject = {
     yes: 'Да',
   },
   hierarchy: {
+    allowedTypesDescription: 'Изаберите типове колекција које ова ставка може да садржи',
     folderLocation: 'Локација фасцикле',
     goTo: 'Idite na "{{name}}"',
     itemsMovedTo: '{{title}} je premešten u {{destination}}',
