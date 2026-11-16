@@ -1,4 +1,5 @@
 'use client'
+import type { I18nClient } from '@payloadcms/translations'
 import type { KeyboardEventHandler } from 'react'
 import type { GroupBase, MenuListProps, MenuProps } from 'react-select'
 
@@ -33,6 +34,25 @@ import './index.css'
 
 const DEFAULT_MAX_MENU_HEIGHT = 300
 
+/**
+ * A config label can be a translation object (`{ en, pl }`) or a function. react-select renders and
+ * filters by this text, so it must be a string. Strings and elements (e.g. the field list in the
+ * filters) are rendered as they are.
+ */
+const getTranslatedOptionLabel = ({ i18n, option }: { i18n: I18nClient; option: Option }) => {
+  const { label } = option
+
+  if (label === undefined || label === null) {
+    return ''
+  }
+
+  if (typeof label === 'string' || React.isValidElement(label)) {
+    return label as string
+  }
+
+  return getTranslation(label as Parameters<typeof getTranslation>[0], i18n)
+}
+
 const SelectAdapter: React.FC<ReactSelectAdapterProps> = (props) => {
   const { i18n, t } = useTranslation()
   const [inputValue, setInputValue] = useState('') // for creatable select
@@ -46,6 +66,7 @@ const SelectAdapter: React.FC<ReactSelectAdapterProps> = (props) => {
     components,
     disabled = false,
     filterOption = undefined,
+    getOptionLabel: getOptionLabelFromProps,
     getOptionValue,
     isClearable = true,
     isCreatable,
@@ -145,6 +166,8 @@ const SelectAdapter: React.FC<ReactSelectAdapterProps> = (props) => {
     classNames: selectClassNames,
     components: selectComponents,
     filterOption,
+    getOptionLabel:
+      getOptionLabelFromProps ?? ((option: Option) => getTranslatedOptionLabel({ i18n, option })),
     instanceId: uuid,
     isClearable,
     isDisabled: disabled,
