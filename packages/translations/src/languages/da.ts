@@ -580,6 +580,7 @@ export const daTranslations: DefaultTranslationsObject = {
     yes: 'Ja',
   },
   hierarchy: {
+    allowedTypesDescription: 'Vælg de samlingstyper, dette element kan indeholde',
     folderLocation: 'Mappeplacering',
     goTo: 'Gå til "{{name}}"',
     itemsMovedTo: '{{title}} flyttet til {{destination}}',

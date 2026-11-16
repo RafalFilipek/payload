@@ -580,6 +580,7 @@ export const jaTranslations: DefaultTranslationsObject = {
     yes: 'はい',
   },
   hierarchy: {
+    allowedTypesDescription: 'この項目に含めることができるコレクションの種類を選択してください',
     folderLocation: 'フォルダーの場所',
     goTo: '「{{name}}」へ移動してください。',
     itemsMovedTo: '{{title}}は{{destination}}に移動しました',

@@ -573,6 +573,7 @@ export const faTranslations: DefaultTranslationsObject = {
     yes: 'بله',
   },
   hierarchy: {
+    allowedTypesDescription: 'انواع مجموعه‌هایی را که این مورد می‌تواند داشته باشد انتخاب کنید',
     folderLocation: 'محل پوشه',
     goTo: 'به "{{name}}" بروید.',
     itemsMovedTo: '{{title}} به {{destination}} منتقل شد.',

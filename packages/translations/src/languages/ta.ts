@@ -573,6 +573,7 @@ export const taTranslations: DefaultTranslationsObject = {
     yes: 'ஆம்',
   },
   hierarchy: {
+    allowedTypesDescription: 'இந்த உருப்படி கொண்டிருக்கக்கூடிய தொகுப்பு வகைகளைத் தேர்ந்தெடுக்கவும்',
     folderLocation: 'கோப்புறையின் இருப்பிடம்',
     goTo: '"{{name}}"க்கு செல்லுங்கள்',
     itemsMovedTo: '{{title}} ஐ {{destination}} க்கு நகர்த்தினோம்',

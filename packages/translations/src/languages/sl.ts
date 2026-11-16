@@ -579,6 +579,7 @@ export const slTranslations: DefaultTranslationsObject = {
     yes: 'Da',
   },
   hierarchy: {
+    allowedTypesDescription: 'Izberite vrste zbirk, ki jih lahko vsebuje ta element',
     folderLocation: 'Lokacija mape',
     goTo: 'Pojdite na "{{name}}"',
     itemsMovedTo: '{{title}} preseljeno v {{destination}}',

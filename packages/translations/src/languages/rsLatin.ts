@@ -580,6 +580,7 @@ export const rsLatinTranslations: DefaultTranslationsObject = {
     yes: 'Da',
   },
   hierarchy: {
+    allowedTypesDescription: 'Izaberite tipove kolekcija koje ova stavka može da sadrži',
     folderLocation: 'Lokacija fascikle',
     goTo: 'Idite na "{{name}}"',
     itemsMovedTo: '{{title}} premešten u {{destination}}',

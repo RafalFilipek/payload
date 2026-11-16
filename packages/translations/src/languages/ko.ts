@@ -577,6 +577,7 @@ export const koTranslations: DefaultTranslationsObject = {
     yes: '네',
   },
   hierarchy: {
+    allowedTypesDescription: '이 항목에 포함할 수 있는 컬렉션 유형을 선택하세요',
     folderLocation: '폴더 위치',
     goTo: '"{{name}}"로 이동하십시오.',
     itemsMovedTo: '{{title}}은 {{destination}}으로 이동되었습니다.',

@@ -564,6 +564,7 @@ export const heTranslations: DefaultTranslationsObject = {
     yes: 'כן',
   },
   hierarchy: {
+    allowedTypesDescription: 'בחרו את סוגי האוספים שפריט זה יכול להכיל',
     folderLocation: 'מיקום התיקייה',
     goTo: 'עבור אל "{{name}}"',
     itemsMovedTo: '{{title}} הועבר ל-{{destination}}',

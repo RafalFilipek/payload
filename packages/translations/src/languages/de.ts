@@ -596,6 +596,7 @@ export const deTranslations: DefaultTranslationsObject = {
     yes: 'Ja',
   },
   hierarchy: {
+    allowedTypesDescription: 'Wählen Sie die Sammlungstypen aus, die dieses Element enthalten kann',
     folderLocation: 'Ordnerpfad',
     goTo: 'Gehen Sie zu "{{name}}"',
     itemsMovedTo: '{{title}} wurde nach {{destination}} verschoben.',

@@ -588,6 +588,7 @@ export const itTranslations: DefaultTranslationsObject = {
     yes: 'Sì',
   },
   hierarchy: {
+    allowedTypesDescription: 'Seleziona i tipi di collezione che questo elemento può contenere',
     folderLocation: 'Posizione della cartella',
     goTo: 'Vai a "{{name}}"',
     itemsMovedTo: '{{title}} è stato spostato a {{destination}}',

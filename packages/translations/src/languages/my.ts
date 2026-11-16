@@ -569,6 +569,7 @@ export const myTranslations: DefaultTranslationsObject = {
     yes: 'ဟုတ်ကဲ့',
   },
   hierarchy: {
+    allowedTypesDescription: 'ဤအရာတွင် ပါဝင်နိုင်သော စုစည်းမှုအမျိုးအစားများကို ရွေးချယ်ပါ',
     folderLocation: 'ဖိုင်တွဲတည်နေရာ',
     goTo: '"{{name}}" သို့သွားပါ',
     itemsMovedTo: '{{title}} ကို {{destination}} သို့ ရွှေ့လိုက်ပါပြီ',

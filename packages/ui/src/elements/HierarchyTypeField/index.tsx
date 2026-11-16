@@ -9,6 +9,7 @@ import { mergeFieldStyles } from '../../fields/mergeFieldStyles.js'
 import { formatOptions, SelectInput } from '../../fields/Select/index.js'
 import { useField } from '../../forms/useField/index.js'
 import { useHierarchy } from '../../providers/Hierarchy/index.js'
+import { useTranslation } from '../../providers/Translation/index.js'
 
 type HierarchyTypeFieldProps = {
   options: Option[]
@@ -37,6 +38,7 @@ export const HierarchyTypeField: React.FC<HierarchyTypeFieldProps> = ({
   } = props
 
   const { allowedCollections } = useHierarchy()
+  const { t } = useTranslation()
 
   const options = useMemo(() => {
     if (!allowedCollections || allowedCollections.length === 0) {
@@ -105,7 +107,7 @@ export const HierarchyTypeField: React.FC<HierarchyTypeFieldProps> = ({
         BeforeInput={BeforeInput}
         className={className}
         Description={Description}
-        description="Select the collection types this item can contain"
+        description={t('hierarchy:allowedTypesDescription')}
         Error={Error}
         filterOption={
           selectFilterOptions

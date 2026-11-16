@@ -582,6 +582,7 @@ export const svTranslations: DefaultTranslationsObject = {
     yes: 'Ja',
   },
   hierarchy: {
+    allowedTypesDescription: 'Välj de samlingstyper som det här objektet kan innehålla',
     folderLocation: 'Mappens plats',
     goTo: 'Gå till "{{name}}"',
     itemsMovedTo: '{{title}} flyttades till {{destination}}',

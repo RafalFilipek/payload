@@ -586,6 +586,7 @@ export const ruTranslations: DefaultTranslationsObject = {
     yes: 'Да',
   },
   hierarchy: {
+    allowedTypesDescription: 'Выберите типы коллекций, которые может содержать этот элемент',
     folderLocation: 'Расположение папки',
     goTo: 'Перейти к "{{name}}"',
     itemsMovedTo: '{{title}} перемещен в {{destination}}',

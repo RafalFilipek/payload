@@ -589,6 +589,7 @@ export const huTranslations: DefaultTranslationsObject = {
     yes: 'Igen',
   },
   hierarchy: {
+    allowedTypesDescription: 'Válassza ki, milyen gyűjteménytípusokat tartalmazhat ez az elem',
     folderLocation: 'Mappa helye',
     goTo: 'Ugrás ide: "{{name}}"',
     itemsMovedTo: '{{title}} átkerült ide: {{destination}}',

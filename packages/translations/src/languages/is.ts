@@ -578,6 +578,7 @@ export const isTranslations: DefaultTranslationsObject = {
     yes: 'Já',
   },
   hierarchy: {
+    allowedTypesDescription: 'Veldu þær tegundir safna sem þetta atriði getur innihaldið',
     folderLocation: 'Staðsetning möppu',
     goTo: 'Farðu á "{{name}}"',
     itemsMovedTo: '{{title}} flutt til {{destination}}',

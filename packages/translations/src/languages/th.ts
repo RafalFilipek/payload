@@ -560,6 +560,7 @@ export const thTranslations: DefaultTranslationsObject = {
     yes: 'ใช่',
   },
   hierarchy: {
+    allowedTypesDescription: 'เลือกประเภทคอลเลกชันที่รายการนี้สามารถมีได้',
     folderLocation: 'ตำแหน่งโฟลเดอร์',
     goTo: 'ไปที่ "{{name}}"',
     itemsMovedTo: '{{title}} ย้ายไปที่ {{destination}}',

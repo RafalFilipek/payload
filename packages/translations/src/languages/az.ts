@@ -586,6 +586,7 @@ export const azTranslations: DefaultTranslationsObject = {
     yes: 'Bəli',
   },
   hierarchy: {
+    allowedTypesDescription: 'Bu elementin ehtiva edə biləcəyi kolleksiya növlərini seçin',
     folderLocation: 'Qovluğun yeri',
     goTo: '"{{name}}" -a keçin',
     itemsMovedTo: '{{title}} {{destination}}-ə köçürüldü',
